@@ -1,0 +1,90 @@
+/* styles.css */
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #a0c4ff; /* Light blue background */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center the main content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh; /* Full height of the viewport */
+}
+
+.window {
+    background: #ffffff; /* White window background */
+    border: 2px solid #000; /* Black border */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    padding: 10px;
+}
+
+.title-bar {
+    background: #0078d7; /* Windows title bar color */
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+
+.title {
+    display: inline-block;
+}
+
+.container {
+    max-width: 400px;
+    margin-right: 20px; /* Space between container and sidebar */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.sidebar {
+    margin-top: 20px; /* Space above the sidebar */
+    background: #f0f0f0; /* Light gray background for sidebar */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-self: flex-end; /* Align sidebar to the right */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px }
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4747; /* Mario red */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e63946; /* Darker red on hover */
+}
+
+h2 {
+    color: #0078d7; /* Windows blue for results */
+}
+
+.sidebar select {
+    background-color: #ffffff; /* White background for dropdowns */
+}
+
+#meaningDisplay {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #333;
+}

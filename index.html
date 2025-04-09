@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade Saga - Compounding Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="window">
+        <div class="title-bar">
+            <span class="title">Trade Saga</span>
+        </div>
+        <div class="container">
+            <label for="capitalPerTrade">Adventure Capital:</label>
+            <input type="number" id="capitalPerTrade" required>
+
+            <label for="profitPercentage">Quest Profit (%):</label>
+            <input type="number" id="profitPercentage" required>
+
+            <label for="numberOfTrades">Number of Challenges:</label>
+            <input type="number" id="numberOfTrades" required>
+
+            <button onclick="calculateFinalAmount()">Calculate</button>
+
+            <h2 id="result"></h2>
+
+            <div class="sidebar">
+                <label for="currency">Select Currency:</label>
+                <select id="currency">
+                    <option value="USD">USD ($)</option>
+                    <option value="EUR">EUR (€)</option>
+                    <option value="GBP">GBP (£)</option>
+                    <option value="INR">INR (₹)</option>
+                    <option value="JPY">JPY (¥)</option>
+                </select>
+
+                <label for="meanings">Meaning of Terms:</label>
+                <select id="meanings" onchange="showMeaning()">
+                    <option value="">Select a term...</option>
+                    <option value="capital">Adventure Capital</option>
+                    <option value="profit">Quest Profit</option>
+                    <option value="trades">Number of Challenges</option>
+                </select>
+
+                <p id="meaningDisplay"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
