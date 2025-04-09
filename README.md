@@ -7,9 +7,6 @@ Check out the live application here: [TradeSaga Live](https://tradesaga.vercel.a
 
 ## 📦 Features
 - **User  -Friendly Interface**: Easy navigation and intuitive design.
-- **Real-Time Data**: Get the latest market updates and trends.
-- **Customizable Dashboard**: Tailor your trading experience to fit your needs.
-- **Secure Transactions**: Your data and transactions are safe with us! 🔒
 
 ## 🚀 Getting Started
 
